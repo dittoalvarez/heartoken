@@ -13,9 +13,9 @@ export default function signin() {
            <title>Heart Token</title>
            <meta name='keywords' content='heart, token, change the world' />
        </Head>
-
+        <div>
        <Image src={logo} />
-
+        </div>
        <text>SignIn</text>
         
             
@@ -29,7 +29,14 @@ export default function signin() {
        </form>
 
        <div>
-        <Button>Sign In</Button>
+           <text>Remember me. </text> 
+           <text>Learn more</text>
+       </div>
+            <div>
+                <text>Forgot password?</text>
+            </div>
+       <div>
+        <Button>Continue</Button>
        </div>
 
        <div>
@@ -42,8 +49,20 @@ export default function signin() {
         </div>
 
         <div>
-            <Image src ={socialicon} />
+            <Image src = {socialicon} />
         </div>
+
+
+        <div>   
+            <text>Don't have a Heart Token account?</text>
+        </div>
+        
+
+        <div>
+            <Button>Sign up</Button>
+        </div>
+
+
             
         </div>
     )

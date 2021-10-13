@@ -15,9 +15,9 @@ export default function login() {
            <title>Heart Token</title>
            <meta name='keywords' content='heart, token, change the world' />
        </Head>
-
+      <div>
        <Image src={logo} />
-
+      </div>
        <Carousel>
         <Carousel.Item>
           <Image
@@ -40,14 +40,21 @@ export default function login() {
 
         </Carousel.Item>
       </Carousel>
-
+      <div>
       <h3> Never miss a work opportunity.</h3>
       <h4>Easily find work, chat and collaborate on the go.</h4>
-        
-      <Button color="secondary" size="lg">Sign up</Button>
-      <Button color="secondary" size="lg">Login</Button>
+        </div>
 
-       
+        <div>
+      <Button color="secondary" size="lg">Sign up</Button>
+        </div>
+        <div>
+      <Button color="secondary" size="lg">Login</Button>
+        </div>
+
+      <div>
+        <text>New to Heart Token? Sign up</text>
+        </div> 
 
     </div>
   )
