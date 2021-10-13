@@ -29,7 +29,6 @@ export default function Home() {
             className="d-block w-100"
             src={profilePic2}
           />
-
           
         </Carousel.Item>
         <Carousel.Item>
